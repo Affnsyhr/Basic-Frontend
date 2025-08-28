@@ -69,7 +69,7 @@ Ibarat pohon/silsilah keluarga → setiap elemen punya **induk (parent)** dan bi
 * ✅ Elemen terdiri dari **tag pembuka, konten, tag penutup**.
 * ✅ Atribut menambahkan informasi/aturan pada elemen.
 * ✅ Semua elemen tersusun dalam struktur **DOM Tree**.
-* ⬜ Latihan membuat halaman HTML sederhana.
-* ⬜ Eksperimen dengan atribut (`href`, `src`, `alt`, `id`, `class`).
+* ✅ Latihan membuat halaman HTML sederhana.
+* ✅ Eksperimen dengan atribut (`href`, `src`, `alt`, `id`, `class`).
 
 Belajar Dasar Pemrograman Web © 2023, Dicoding
