@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Jadwal Pelajaran</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    thead {
+      background-color: #d4e6f1;
+    }
+    tfoot {
+      background-color: #f9e79f;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <!-- Judul tabel -->
+    <caption>Jadwal Mata Pelajaran</caption>
+
+    <!-- Group kolom -->
+    <colgroup>
+      <col span="1" style="background-color: #f5b7b1;">
+      <col span="5" style="background-color: #d6eaf8;">
+    </colgroup>
+
+    <!-- Header tabel -->
+    <thead>
+      <tr>
+        <th scope="col">Hari</th>
+        <th scope="col">Jam 1</th>
+        <th scope="col">Jam 2</th>
+        <th scope="col" colspan="2">Jam 3 & 4</th>
+        <th scope="col">Jam 5</th>
+      </tr>
+    </thead>
+
+    <!-- Body tabel -->
+    <tbody>
+      <tr>
+        <th scope="row">Senin</th>
+        <td rowspan="2" headers="matematika">Matematika</td>
+        <td>IPA</td>
+        <td colspan="2">Bahasa Indonesia</td>
+        <td>IPS</td>
+      </tr>
+      <tr>
+        <th scope="row">Selasa</th>
+        <td>IPS</td>
+        <td>Bahasa Inggris</td>
+        <td>Olahraga</td>
+        <td>IPA</td>
+      </tr>
+      <tr>
+        <th scope="row">Rabu</th>
+        <td>IPA</td>
+        <td colspan="2">Matematika</td>
+        <td>IPS</td>
+        <td rowspan="2">Seni</td>
+      </tr>
+      <tr>
+        <th scope="row">Kamis</th>
+        <td>Bahasa Indonesia</td>
+        <td>Bahasa Inggris</td>
+        <td>Olahraga</td>
+        <td>IPA</td>
+      </tr>
+    </tbody>
+
+    <!-- Footer tabel -->
+    <tfoot>
+      <tr>
+        <td colspan="6">Catatan: Jadwal bisa berubah sewaktu-waktu</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input dalam HTML</title>
+</head>
+<body>
+    <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #555;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    input {
+      margin: 4px 0;
+    }
+  </style>
+</head>
+<body>
+<textarea rows="6" cols="16">
+Belajar
+Dasar
+Pemrograman
+Web
+</textarea>
+
+<div>
+  <label for="email">Email</label>
+  <br />
+  <input type="email" id="email" placeholder="example@mail.com" required />
+</div>
+
+<div>
+  <label for="password">Password</label>
+  <br />
+  <input type="password" id="password" placeholder="********" required />
+</div>
+
+  <h2>Contoh Tipe Input HTML</h2>
+
+  <table>
+    <tr>
+      <th>Tipe</th>
+      <th>Contoh</th>
+      <th>Deskripsi</th>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td><input type="text" placeholder="Masukkan teks"></td>
+      <td>Input teks yang berisi satu baris. Default jika tidak menentukan tipe.</td>
+    </tr>
+    <tr>
+      <td>number</td>
+      <td><input type="number" placeholder="123"></td>
+      <td>Input teks yang hanya mengizinkan format angka.</td>
+    </tr>
+    <tr>
+      <td>password</td>
+      <td><input type="password" placeholder="••••"></td>
+      <td>Setiap karakter ditampilkan sebagai bintang.</td>
+    </tr>
+    <tr>
+      <td>email</td>
+      <td><input type="email" placeholder="kamuganteng@email.com"></td>
+      <td>Input untuk format email. Jika salah format → error.</td>
+    </tr>
+    <tr>
+      <td>search</td>
+      <td><input type="search" placeholder="Cari..."></td>
+      <td>Input untuk pencarian, biasanya ada ikon ✕ untuk clear text.</td>
+    </tr>
+    <tr>
+      <td>date</td>
+      <td><input type="date"></td>
+      <td>Input untuk memilih tanggal dengan date picker.</td>
+    </tr>
+    <tr>
+      <td>time</td>
+      <td><input type="time"></td>
+      <td>Input untuk menentukan waktu (jam/menit).</td>
+    </tr>
+    <tr>
+      <td>datetime-local</td>
+      <td><input type="datetime-local"></td>
+      <td>Input gabungan tanggal dan waktu.</td>
+    </tr>
+    <tr>
+      <td>checkbox</td>
+      <td><input type="checkbox"> Pilih saya</td>
+      <td>Input kotak centang.</td>
+    </tr>
+    <tr>
+      <td>radio</td>
+      <td>
+        <input type="radio" name="pilihan"> A
+        <input type="radio" name="pilihan"> B
+      </td>
+      <td>Input pilihan (satu dari beberapa opsi).</td>
+    </tr>
+    <tr>
+      <td>range</td>
+      <td><input type="range" min="0" max="100"></td>
+      <td>Input slider dengan rentang nilai.</td>
+    </tr>
+    <tr>
+      <td>color</td>
+      <td><input type="color"></td>
+      <td>Input pemilih warna.</td>
+    </tr>
+    <tr>
+      <td>file</td>
+      <td><input type="file"></td>
+      <td>Input untuk upload file.</td>
+    </tr>
+    <tr>
+      <td>submit</td>
+      <td><input type="submit" value="Kirim"></td>
+      <td>Tombol untuk mengirim form.</td>
+    </tr>
+    <tr>
+      <td>hidden</td>
+      <td><input type="hidden" value="12345"> (tidak terlihat)</td>
+      <td>Input tersembunyi, digunakan developer untuk menyimpan data tambahan.</td>
+    </tr>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Input HTML dengan Div</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+      gap: 16px; /* jarak antar kotak */
+      max-width: 800px;
+    }
+    .item {
+      border: 1px solid #555;
+      padding: 12px;
+      border-radius: 6px;
+      background: #f9f9f9;
+    }
+    .item label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .item input {
+      margin: 4px 0;
+    }
+    .desc {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Input HTML (2 Kolom Grid)</h2>
+
+  <div class="container">
+
+    <div class="item">
+      <label>Text</label>
+      <input type="text" placeholder="Masukkan teks">
+      <p class="desc">Input teks yang berisi satu baris.</p>
+    </div>
+
+    <div class="item">
+      <label>Number</label>
+      <input type="number" placeholder="123">
+      <p class="desc">Input teks yang hanya mengizinkan angka.</p>
+    </div>
+
+    <div class="item">
+      <label>Password</label>
+      <input type="password" placeholder="masukkan password">
+      <p class="desc">Setiap karakter ditampilkan sebagai bintang.</p>
+    </div>
+
+    <div class="item">
+      <label>Email</label>
+      <input type="email" placeholder="contoh@email.com">
+      <p class="desc">Input format email (validasi otomatis).</p>
+    </div>
+
+    <div class="item">
+      <label>Checkbox</label>
+      <input type="checkbox"> Jokowi
+      <input type="checkbox"> Prabowo
+      <input type="checkbox"> Ganjar
+      <p class="desc">Kotak centang untuk pilihan jamak.</p>
+    </div>
+
+    <div class="item">
+      <label>Radio</label>
+      <input type="radio" name="pilihan"> A
+      <input type="radio" name="pilihan"> B
+      <p class="desc">Hanya bisa pilih satu opsi.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
