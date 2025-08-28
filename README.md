@@ -72,4 +72,4 @@ Ibarat pohon/silsilah keluarga → setiap elemen punya **induk (parent)** dan bi
 * ⬜ Latihan membuat halaman HTML sederhana.
 * ⬜ Eksperimen dengan atribut (`href`, `src`, `alt`, `id`, `class`).
 
-
+Belajar Dasar Pemrograman Web © 2023, Dicoding
