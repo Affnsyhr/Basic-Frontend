@@ -48,7 +48,7 @@ Contoh kerangka minimal sebuah halaman HTML:
     <title>Judul</title>
   </head>
   <body>
-    <h1>Halo Dunia!</h1>
+    <h1>Hello World!</h1>
     <p>Ini paragraf pertama saya.</p>
   </body>
 </html>
@@ -72,4 +72,4 @@ Ibarat pohon/silsilah keluarga → setiap elemen punya **induk (parent)** dan bi
 * ✅ Latihan membuat halaman HTML sederhana.
 * ✅ Eksperimen dengan atribut (`href`, `src`, `alt`, `id`, `class`).
 
-Belajar Dasar Pemrograman Web © 2023, Dicoding
+✍️Belajar Dasar Pemrograman Web © 2023, Dicoding
