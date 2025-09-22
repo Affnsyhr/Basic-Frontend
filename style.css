@@ -1,0 +1,21 @@
+body {
+     font-family: sans-serif;
+}
+
+h1 {
+    color: rgb(17, 17, 18);
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+footer {
+  background-color: #00a2c6; /* warna untuk footer */
+  color: white;
+  text-align: center;  
+  padding: 20px 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h2, h3 {
+  color:#00a2c6;  /* warna untuk judul */
+}
