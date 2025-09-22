@@ -61,4 +61,4 @@ Tujuan utama adalah memahami tidak hanya **dasar-dasar HTML**, tetapi juga **ele
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML)  
 - [W3Schools - HTML](https://www.w3schools.com/html/)  
 
-Belajar Dasar Pemrograman Web © 2023, Dicoding
+✍️Belajar Dasar Pemrograman Web © 2023, Dicoding
