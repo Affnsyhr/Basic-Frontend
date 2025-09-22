@@ -34,13 +34,12 @@ CSS ditulis langsung di dalam atribut `style` pada elemen HTML.
 
 CSS ditulis di dalam elemen `<style>` pada file HTML, biasanya diletakkan di bagian `<head>`.
 
----
+
 
 ### 3. External Style Sheet
 
 CSS ditulis di file terpisah dengan ekstensi `.css`, lalu dipanggil dengan `<link>`.
 
----
 
 ### 4. Imported Style Sheet
 
