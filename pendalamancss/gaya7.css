@@ -1,0 +1,10 @@
+/* rules style yang menambahkan tanda kutip sebelum dan sesudah elemen blockquote  */
+blockquote::before,
+blockquote::after {
+  content: '"';
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
