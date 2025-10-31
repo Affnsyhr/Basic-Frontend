@@ -1,0 +1,28 @@
+/* contoh type selector */
+span {
+    color :brown
+}
+
+/* contoh class selector */ 
+.red {
+    color :red;
+    font-style: Helvetica, sans-serif;
+    background-color :yellow;
+}
+
+.blue {
+    color :blue;
+    background-color:palevioletred;
+}       
+.skyblue-bg {
+    background-color:skyblue;
+}
+.fancy {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px rgb(171, 26, 173);
+}
+/* contoh class selector dengan multiple property */
+p.fancy { 
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}   

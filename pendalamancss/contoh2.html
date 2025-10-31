@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menggunakan ID Selector</title>
+    <link rel="stylesheet" href="gaya2.css">
+</head>
+<body>
+    <ul>
+      <li><a href="#internal">Internal link</a></li>
+      <li><a href="http://example.com">Example link</a></li>
+      <li><a href="#InSensitive">Insensitive internal link</a></li>
+      <li><a href="http://example.org">Example org link</a></li>
+    </ul>
+    <div id="special">
+      <p>Ini merupakan konten di dalam sebuah div yang diberi id special.</p>
+    </div>
+    <div>
+      <p>Ini merupakan konten di dalam sebuah div biasa.</p>
+    </div>
+    <!-- contoh [attr] -->
+    <a href="#">Link without title</a>
+    <a href="#" title="Google">Link with title</a>
+    <br>
+    <!-- contoh [attr=value] -->
+    <input type="text" placeholder="name">
+    <input type="password" placeholder="password">
+    <br>
+    <!-- contoh [attr~=value] -->
+    <p class="note penting">Ini teks penting</p>
+    <p class="note">Ini teks biasa</p>
+    <br>
+    <!-- contoh [attr^=value] -->
+    <a href="https://google.com">Google</a>
+    <a href="http://example.com">Example</a>
+    <br>
+    <!-- contoh [attr$=value] -->
+    <img src="/gambar/bandung.png" alt="Gambar Bandung" width="100"> 
+    <img src="/gambar/history.jpg" alt="Gambar History" width="100" >
+</body>
+</html>

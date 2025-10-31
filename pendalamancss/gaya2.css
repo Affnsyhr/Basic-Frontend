@@ -1,0 +1,59 @@
+/* contoh unordered list */
+ul {
+  font-size: 18px;
+}
+
+/* <a> element yang menerapkan href attribute */
+a[href] {
+  color: blue;
+}
+
+/* <a> element yang menerapkan nilai pada href dengan awalan "#" */
+a[href^='#'] {
+  background-color: gold;
+}
+
+/* <a> element yang menerapkan nilai pada href yang mengandung teks "example" */
+a[href*='example'] {
+  background-color: silver;
+}
+
+/* <a> element yang menerapkan nilai pada href yang mengandung teks "insensitive" tidak mementingkan huruf kapital*/
+a[href*='insensitive' i] {
+  color: cyan;
+}
+
+/* <a> element yang menerapkan nilai pada href dengan akhiran ".org" */
+a[href$='.org'] {
+  color: red;
+}
+
+/* contoh ID selector */
+#special {
+  color: blue;
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px rgb(171, 26, 173);
+}
+
+a[title] {
+  color: red; /* hanya <a> yang punya atribut title */
+}
+
+input[type="password"] {
+  border: 2px solid red; /* hanya input password */
+}
+
+p[class~="penting"] {
+  font-weight: bold; /* hanya <p> yg punya class "penting" */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a[href^="https"] {
+  color: green; /* link yang mulai dengan https */
+}
+
+img[src$=".png"] {
+  border: 2px solid blue; /* hanya gambar berakhiran .png */
+}

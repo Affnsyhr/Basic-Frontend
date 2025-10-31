@@ -1,0 +1,14 @@
+/* Adjasent Sibling Selector (+)
+menggabungkan dua buah basic selector dengan menggunakan tanda + di antara keduanya */
+/* img + p {
+  color: green;
+} */
+
+/* General Sibling Selector (~)
+Mirip seperti Adjacent Sibling Selector, tetapi rules akan diterapkan pada seluruh elemen kedua yang 
+berada setelah elemen pertama selama masih memiliki induk yang sama, walaupun posisi dari elemen kedua 
+tidak berada tepat setelahnya */
+
+img ~ p {
+  color: green;
+}
