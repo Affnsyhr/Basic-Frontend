@@ -1,0 +1,8 @@
+/* Rule akan diterapkan pada elemen paragraf yang merupakan child dari elemen div */
+/* div > p {
+  background-color: yellow;
+} */
+/* Rule akan diterapkan pada elemen header yang berada tepat setelah elemen img */
+div p {
+  background-color: yellow;
+}
